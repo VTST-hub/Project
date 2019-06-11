@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Share"
+        android:title="Share">
+    </item>
+    <item
+        android:id="@+id/About"
+        android:title="About">
+
+    </item>
+    <item
+        android:id="@+id/Exit"
+        android:title="Exit">
+    </item>
+    <item
+        android:id="@+id/Search"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/Setting"
+        android:title="Setting"
+        android:icon="@drawable/ic_settings_black_24dp"
+        app:showAsAction="always">
+
+    </item>
+</menu>
